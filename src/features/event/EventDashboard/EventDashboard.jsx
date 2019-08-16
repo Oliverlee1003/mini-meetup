@@ -8,7 +8,7 @@ const eventsFromDashBoard = [
     {
         id: '1',
         title: 'Trip to Tower of London',
-        date: '2018-03-27T11:00:00+00:00',
+        date: '2018-03-27',
         category: 'culture',
         description:
             'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus sollicitudin ligula eu leo tincidunt, quis scelerisque magna dapibus. Sed eget ipsum vel arcu vehicula ullamcorper.',
@@ -32,7 +32,7 @@ const eventsFromDashBoard = [
     {
         id: '2',
         title: 'Trip to Punch and Judy Pub',
-        date: '2018-03-28T14:00:00+00:00',
+        date: '2018-03-28',
         category: 'drinks',
         description:
             'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus sollicitudin ligula eu leo tincidunt, quis scelerisque magna dapibus. Sed eget ipsum vel arcu vehicula ullamcorper.',
@@ -59,14 +59,38 @@ const eventsFromDashBoard = [
 class EventDashboard extends Component {
     state = {
         events: eventsFromDashBoard,
+        selectedEvent: null,
         isOpen: false
     };
 
+    // // {isOpen} is destructed version of this.state.isOpen
+    // handleFormOpenToggle = () =>  {
+    //     this.setState( ({isOpen}) => ({
+    //         isOpen: ! isOpen
+    //     }))
+    // };
+
     // {isOpen} is destructed version of this.state.isOpen
-    handleFormOpenToggle = () =>  {
+    handleCreateFormOpen = () =>  {
         this.setState( ({isOpen}) => ({
-            isOpen: ! isOpen
+            isOpen: true,
+            selectedEvent: null
         }))
+    };
+
+    handleFormCancel = () =>  {
+        this.setState( ({isOpen}) => ({
+            isOpen: false
+        }))
+    };
+
+    handleSelectEvent = (event) => {
+        this.setState(() => ({
+                selectedEvent: event,
+                isOpen: true
+            })
+
+        )
     };
 
     handleCreateEvent = (newEvent) => {
@@ -80,22 +104,54 @@ class EventDashboard extends Component {
         )
     };
 
+    handleUpdateEvent = (updatedEvent) => {
+        this.setState( ({events}) => ({
+            events: events.map(event => {
+                if (event.id === updatedEvent.id){
+                    return {...updatedEvent}
+                }
+                else {
+                    return event
+                }
+            }),
+            isOpen:false,
+            selectedEvent: null
+        }))
+    };
+
+    handleDeleteEvent = (deletedEventId) => {
+        this.setState( ({events})=> ({
+                    events: events.filter(event => (event.id !== deletedEventId)),
+                    isOpen:false,
+                    selectedEvent:null
+                }
+            )
+        )
+    };
+
 
     render() {
-        const {events,isOpen} = this.state;
+        const {events,isOpen,selectedEvent} = this.state;
         return (
             <div>
                 <Grid>
                     <Grid.Column width={10}>
                         <h2>Left column</h2>
-                        <EventList events = {events}/>
+                        <EventList
+                            deleteEvent = {this.handleDeleteEvent}
+                            events = {events}
+                            selectEvent = {this.handleSelectEvent}
+                        />
                     </Grid.Column>
                     <Grid.Column width={6}>
-                        <Button onClick={this.handleFormOpenToggle} positive content ='Create Event'/>
+                        <Button onClick={this.handleCreateFormOpen} positive content ='Create Event'/>
                         {isOpen &&
                         <EventForm
-                            cancelFormOpen = {this.handleFormOpenToggle}
+                            key = {selectedEvent ? selectedEvent.id : 0}
+                            cancelFormOpen = {this.handleFormCancel}
                             createEvent = {this.handleCreateEvent}
+                            updateEvent = {this.handleUpdateEvent}
+                            selectedEvent = {selectedEvent}
                         />}
                     </Grid.Column>
 
