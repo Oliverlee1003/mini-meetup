@@ -136,7 +136,6 @@ class EventDashboard extends Component {
             <div>
                 <Grid>
                     <Grid.Column width={10}>
-                        <h2>Left column</h2>
                         <EventList
                             deleteEvent = {this.handleDeleteEvent}
                             events = {events}
