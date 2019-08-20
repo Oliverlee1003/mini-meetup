@@ -1,6 +1,6 @@
 import React from 'react';
 import {Menu,Image,Dropdown} from "semantic-ui-react";
-import {NavLink, Link} from "react-router-dom";
+import {Link} from "react-router-dom";
 
 const SignedInMenu = ({signOut}) => {
     return (
