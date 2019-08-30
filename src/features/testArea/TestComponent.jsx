@@ -4,7 +4,7 @@ import {incrementCounter,decrementCounter} from './testActions'
 import {Button} from "semantic-ui-react";
 import TestPlaceInput from "./TestPlaceInput";
 import SimpleMap from "./SimpleMap";
-
+import {openModal} from '../modals/modalActions';
 
 class TestComponent extends Component {
 
@@ -20,7 +20,7 @@ class TestComponent extends Component {
     };
 
     render() {
-        const {data, incrementCounter,decrementCounter} = this.props;
+        const {data, incrementCounter,decrementCounter,openModal} = this.props;
         return (
             <div>
                 <h1>Test Component</h1>
@@ -29,10 +29,16 @@ class TestComponent extends Component {
 
                 <Button onClick={incrementCounter} positive content='Increment' />
                 <Button onClick={decrementCounter} negative content='Decrement' />
+                <Button
+                    onClick={()=> openModal('TestModal',{data:42})}
+                    color='teal'
+                    content='Open Modal'
+                />
 
                 <TestPlaceInput handleLatLng={this.handleLatLng}/>
 
                 <SimpleMap key={this.state.latLng.lat + ',' + this.state.latLng.lng} latLng = {this.state.latLng} />
+
 
 
             </div>
@@ -46,7 +52,8 @@ const mapStateToProps = (state) => ({
 
 const mapDispatchToProps = {
     incrementCounter ,
-    decrementCounter
+    decrementCounter ,
+    openModal
 };
 
 export default connect(mapStateToProps, mapDispatchToProps)(TestComponent);
