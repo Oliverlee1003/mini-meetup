@@ -60,8 +60,12 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="91">
-              <caret line="59" column="4" lean-forward="true" selection-start-line="59" selection-start-column="4" selection-end-line="59" selection-end-column="4" />
+            <state relative-caret-position="245">
+              <caret line="30" column="41" selection-start-line="30" selection-start-column="41" selection-end-line="30" selection-end-column="41" />
+              <folding>
+                <element signature="n#!!block;n#scripts#0;n#!!top" />
+                <element signature="n#!!block;n#browserslist#0;n#!!top" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -219,10 +223,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="128" />
-    <option name="y" value="463" />
+    <option name="x" value="400" />
+    <option name="y" value="38" />
     <option name="width" value="1333" />
-    <option name="height" value="631" />
+    <option name="height" value="771" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -322,7 +326,7 @@
       <workItem from="1566340462439" duration="27664000" />
       <workItem from="1567195287020" duration="9511000" />
       <workItem from="1567659015056" duration="5022000" />
-      <workItem from="1567717530636" duration="3245000" />
+      <workItem from="1567717530636" duration="3601000" />
     </task>
     <task id="LOCAL-00001" summary="Event from Redux">
       <created>1566331596237</created>
@@ -335,13 +339,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="89795000" />
+    <option name="totallyTimeSpent" value="90151000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="128" y="463" width="1333" height="631" extended-state="0" />
+    <frame x="400" y="38" width="1333" height="771" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15396342" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15396342" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -356,8 +360,8 @@
       <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.58948684" weight="0.6044776" />
       <window_info anchor="bottom" id="GraphQL" order="9" sideWeight="0.49956635" weight="0.32970452" />
       <window_info anchor="bottom" id="TypeScript" order="10" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.34146342" side_tool="true" visible="true" weight="0.528757" />
-      <window_info anchor="bottom" id="Terminal" order="12" sideWeight="0.6585366" visible="true" weight="0.528757" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.34146342" side_tool="true" visible="true" weight="0.281296" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="12" sideWeight="0.6585366" visible="true" weight="0.281296" />
       <window_info anchor="bottom" id="Messages" order="13" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -786,8 +790,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="91">
-          <caret line="59" column="4" lean-forward="true" selection-start-line="59" selection-start-column="4" selection-end-line="59" selection-end-column="4" />
+        <state relative-caret-position="245">
+          <caret line="30" column="41" selection-start-line="30" selection-start-column="41" selection-end-line="30" selection-end-column="41" />
+          <folding>
+            <element signature="n#!!block;n#scripts#0;n#!!top" />
+            <element signature="n#!!block;n#browserslist#0;n#!!top" />
+          </folding>
         </state>
       </provider>
     </entry>
