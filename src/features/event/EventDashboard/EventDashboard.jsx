@@ -4,6 +4,7 @@ import EventList from "../EventList/EventList";
 import cuid from 'cuid'
 import {connect} from "react-redux";
 import {createEvent,updateEvent,deleteEvent} from '../eventActions'
+import LoadingComponent from "../../../app/layout/LoadingComponent";
 
 class EventDashboard extends Component {
 
@@ -14,7 +15,10 @@ class EventDashboard extends Component {
 
 
     render() {
-        const {events} = this.props;
+        const {events,loading} = this.props;
+        if(loading) {
+            return <LoadingComponent/>;
+        }
         return (
             <div>
                 <Grid>
@@ -36,7 +40,8 @@ class EventDashboard extends Component {
 }
 
 const mapStateToProps = (state) => ({
-    events: state.events
+    events: state.events,
+    loading: state.async.loading
 });
 
 const mapDispatchToProps = {
