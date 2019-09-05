@@ -3,22 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="508d93d3-3928-4499-8b74-3ee58d7b378f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/data/mockApi.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/data/mockApi.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/data/sampleData.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/data/sampleData.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/layout/LoadingComponent.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/layout/LoadingComponent.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/reducers/rootReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/reducers/rootReducer.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/store/configStore.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/store/configStore.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/features/actionConstants.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/actionConstants.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/features/async/asyncAction.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/async/asyncAction.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/features/async/asyncReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/async/asyncReducer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/features/auth/authActions.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/auth/authActions.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/features/event/EventDashboard/EventDashboard.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/event/EventDashboard/EventDashboard.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/features/event/eventActions.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/event/eventActions.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/features/event/eventReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/event/eventReducer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/features/nav/navBar/NavBar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/nav/navBar/NavBar.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/features/testArea/TestComponent.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/testArea/TestComponent.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/features/testArea/testActions.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/testArea/testActions.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
     </list>
     <list id="b7f584fb-0273-41f1-9155-68ea1094035c" name="Event from Redux" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -67,7 +52,16 @@
         <entry file="file://$PROJECT_DIR$/src/app/store/configStore.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="21">
-              <caret line="1" column="88" lean-forward="true" selection-start-line="1" selection-start-column="88" selection-end-line="1" selection-end-column="88" />
+              <caret line="1" column="83" selection-start-line="1" selection-start-column="83" selection-end-line="1" selection-end-column="83" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="61">
+              <caret line="57" column="23" lean-forward="true" selection-start-line="57" selection-end-line="58" />
             </state>
           </provider>
         </entry>
@@ -102,18 +96,6 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-264">
-              <caret line="13" column="19" lean-forward="true" selection-end-line="41" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/app/layout/LoadingComponent.jsx">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="147">
@@ -141,7 +123,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>/*</find>
       <find>defaultProps</find>
       <find>handleLatLng</find>
       <find>initia</find>
@@ -171,6 +152,7 @@
       <find>elementName</find>
       <find>loading</find>
       <find>redux-devtools-extension</find>
+      <find>devD</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/public/assets</dir>
@@ -237,10 +219,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="107" />
-    <option name="y" value="42" />
-    <option name="width" value="1042" />
-    <option name="height" value="688" />
+    <option name="x" value="38" />
+    <option name="y" value="438" />
+    <option name="width" value="1333" />
+    <option name="height" value="631" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -340,7 +322,7 @@
       <workItem from="1566340462439" duration="27664000" />
       <workItem from="1567195287020" duration="9511000" />
       <workItem from="1567659015056" duration="5022000" />
-      <workItem from="1567717530636" duration="2542000" />
+      <workItem from="1567717530636" duration="3001000" />
     </task>
     <task id="LOCAL-00001" summary="Event from Redux">
       <created>1566331596237</created>
@@ -353,13 +335,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="89092000" />
+    <option name="totallyTimeSpent" value="89551000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="171" y="542" width="909" height="762" extended-state="0" />
+    <frame x="38" y="438" width="1333" height="631" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22747748" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15396342" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -374,8 +356,8 @@
       <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.58948684" weight="0.6044776" />
       <window_info anchor="bottom" id="GraphQL" order="9" sideWeight="0.49956635" weight="0.32970452" />
       <window_info anchor="bottom" id="TypeScript" order="10" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.34234235" side_tool="true" visible="true" weight="0.42537314" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="12" sideWeight="0.6576577" visible="true" weight="0.42537314" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.34146342" side_tool="true" visible="true" weight="0.528757" />
+      <window_info anchor="bottom" id="Terminal" order="12" sideWeight="0.6585366" visible="true" weight="0.528757" />
       <window_info anchor="bottom" id="Messages" order="13" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -438,13 +420,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="5" column="47" selection-start-line="5" selection-start-column="47" selection-end-line="5" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="124">
-          <caret line="8" column="11" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="11" />
         </state>
       </provider>
     </entry>
@@ -802,10 +777,17 @@
     <entry file="file://$PROJECT_DIR$/node_modules/redux-devtools-extension/logOnlyInProduction.d.ts">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="61">
+          <caret line="57" column="23" lean-forward="true" selection-start-line="57" selection-end-line="58" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/app/store/configStore.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="21">
-          <caret line="1" column="88" lean-forward="true" selection-start-line="1" selection-start-column="88" selection-end-line="1" selection-end-column="88" />
+          <caret line="1" column="83" selection-start-line="1" selection-start-column="83" selection-end-line="1" selection-end-column="83" />
         </state>
       </provider>
     </entry>
